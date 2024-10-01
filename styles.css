@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+    width: 100%;
+}
+
+@font-face {
+    font-family: Norse;
+    src: url(Norse-Bold.otf);
+}
+
+.leftside, .rightside {
+    width: 100%;
+}
+
+.leftside {
+    flex: 1;
+    position: relative;
+}
+
+.rightside {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    flex: 2;
+    padding-top: 80px;
+    background-color: #F2F2F2;
+    justify-content: space-evenly;
+}
+
+.photocred {
+    position: absolute;
+    top: 96%;
+    left: 50%;
+    transform: translate(-50%);
+    color: white;
+    opacity: 80%;
+}
+
+a {
+    color: white;
+}
+
+.banner {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 15%;
+    width: 100%;
+    top: 20%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Norse, serif;
+    font-size: 96px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.middle {
+    background-color: white;
+    box-shadow: 3px 3px 8px gray;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+input:focus:invalid {
+    outline: 1px solid red;
+    border-radius: 5px;
+}
+
+input:focus {
+    box-shadow: 3px 3px 3px gray;
+}
+
+.create {
+    background-color: #596D48;
+    color: white;
+    height: 50px;
+    width: 200px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 2px 2px 2px gray;
+    margin-bottom: 15px;
+}
+
+label {
+    color: rgb(122, 132, 128);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.info_box {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+}
+
+.flexrow {
+    display: flex;
+    gap: 30px;
+}
+
+.top, .bottom, .middle {
+    padding-left: 30px;
+    padding-right: 100px;
+}
+
+img {
+    height: 100%;
+    width: auto;
+}
+
+
+
+.middle {
+    padding: 20px;
+}
+
+legend {
+    font-size: 24px;
+    margin-bottom: 15px;;
+}
+
+.login {
+    color: #596D48;
+    font-weight: bold;
+    border: none;
+    background-color: #F2F2F2;
+}
+
+p {
+    margin-bottom: 15px;
+    font-size: 24px;
+    font-weight: bold;
+}
