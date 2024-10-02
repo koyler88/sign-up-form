@@ -21,6 +21,8 @@
 .leftside {
     flex: 1;
     position: relative;
+    background-image: url(leaf.jpg);
+    background-size: cover;
 }
 
 .rightside {
@@ -91,6 +93,10 @@ input:focus {
     margin-bottom: 15px;
 }
 
+.create:hover {
+    opacity: 80%;
+}
+
 label {
     color: rgb(122, 132, 128);
 }
@@ -142,6 +148,10 @@ legend {
     font-weight: bold;
     border: none;
     background-color: #F2F2F2;
+}
+
+.login:hover {
+    text-decoration: underline;
 }
 
 p {
